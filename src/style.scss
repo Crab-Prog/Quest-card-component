@@ -1,0 +1,44 @@
+$fontFamily : Arial;
+$mainBackground : lightgrey;
+$margin : 10%;
+
+.App {
+    background: $mainBackground;
+    width: 40%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 40%;
+    font-family: $fontFamily;
+    border: thin solid;
+    border-radius: 20px;
+    box-shadow: 7px 7px grey;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: $margin;
+    margin-right: $margin;
+}
+.card-image{
+    margin-top: $margin;
+    width: 20%;
+}
+.card-plus{    
+    width: 10%;
+    height: 10%;
+    margin-top: $margin;
+    padding: 2%;
+    background-color: #b0b0b0;
+    border-radius: 50%;
+}
+
+.container{
+    margin-left: $margin;
+    margin-right: $margin;
+}
+footer{
+    margin-left: $margin;
+}
+h1{
+    font-size: 1.2rem;
+}
